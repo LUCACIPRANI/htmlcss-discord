@@ -184,8 +184,6 @@ p {
     top: 105%;
 }
 
-/* BOTTONI  */
-
 .bottom-mac {
     position: absolute;
     height: 55px;
@@ -215,10 +213,8 @@ p {
     margin-bottom: 10px;
     margin-top: 2%;
 }
-
-
+/* BOTTONI  */
 /* Fine Sezione quarta */
-
 /* Fine main  */
 
 /* Inizio footer  */
@@ -230,26 +226,100 @@ footer {
     padding-top: 6%;
 }
 
-.containers.uno {
+.container-footer {
     display: inline-block;
-    height: 65%;
-    width: calc(100% / 4 - 5px);
-    /* background-color: green; */
-    border: 1px solid white; 
-}
-
-.containers {
-    display: inline-block;
-    height: 65%;
-    width: calc(80% / 5 - 5px);
-    /* background-color: green; */
-    border: 1px solid white; 
-}
-
-hr {
-    margin-top: 40px;
+    height: 75%;
     width: 90%;
+    background-color: green;
+    border-bottom: 1px solid #8EA1E1;
 }
+
+.containeruno {
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    background-color: #24282B;
+    /* border: 1px solid red;  */
+    border-bottom: 0.1px #8EA1E1;
+}
+.containeruno p{
+    margin-bottom: 30px;
+}
+
+.img-ita {
+    width: 8%;
+    margin: 1%;
+}
+
+h3{
+    font-size: 35px;
+    color: #8EA1E1;;
+}
+
+.ita {
+    font-size: 15px;
+    color: white;
+}
+
+.freccia2 {
+    vertical-align: middle;
+    color: white;
+    margin: 2% 2%;
+}
+
+.containerdue {
+    display: inline-block;
+    height: 25vh;
+    background-color: red;
+}
+
+.containertre {
+    display: inline-block;
+    height: 25vh;
+    background-color: purple;
+}
+
+.containerquattro {
+    display: inline-block;
+    height: 25vh;
+    background-color: purple;
+}
+/* social media  */
+
+.fa {
+    padding: 10px;
+    width: 35px;
+    text-decoration: none;
+    margin: 10px 10px;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+      opacity: 0.5;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+/* social media  */
+/* Logo footer  */
 
 footer .logo {
     margin: 0;
@@ -272,6 +342,6 @@ footer .logo {
     background-color: #8EA1E1;
     color: white;
     left: 2080%;
-    /* margin-top: 2%;
-    margin-left: 2%; */
+
 }
+
