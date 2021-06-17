@@ -136,6 +136,9 @@ p {
 .text-stars {
     position: absolute; 
     bottom: 0;
+    font-weight: 800;
+    font-size: 40px;
+    float: none;
 }
 
 /* Fine Sezione quarta */
