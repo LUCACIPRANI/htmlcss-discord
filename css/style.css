@@ -5,32 +5,39 @@
 }
 
 body {
+    width: 120%;
     font-family: Whitney, Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 /* Barra menu  */
 
-header {
-    position: relative;
-}
 .barra-menu {
-    height: 600px;
-    width: 100%;
+    position: relative;
     background-image: url("../img/jumbo.png");
+    background-color: skyblue;
+    width: 100%;
+    height: 80vh;
     background-size: cover;
+    object-fit: cover;
+
 }
 
 .logo {
-    width: 15%;
-    background-color: transparent;
+    position: absolute;
+    width: 30%;
+    height: 15%;
     vertical-align: middle;
     line-height: 10vh;
-    padding-top: 30px;
-    margin-left: 5%;
+    padding-top: 2%;
+    margin-left: 10%;
 }
 
 nav {
-    margin-left: 30%;
-    padding-top: 20px;
+    position: absolute;
+    width: 50%;
+    height: 15%;
+    margin-left: 25%;
+    text-align: center;
+    padding: 40px;
     vertical-align: middle;
 }
 
@@ -44,24 +51,24 @@ nav ul li {
 .textone.buttom {
     background-color: white;
     color: black;
-    height: 35px;
-    width: 70px;
+    height: 5.5%;
+    width: 5%;
     border-radius: 16px;
     font-size: 15px;
+    text-align: center;
+    padding: 0.5%;
     border-color: transparent;
-    margin-left: 1300px;
-    padding-top: 8px;
-    padding-left: 10px;
+    float: right;
+    margin: 2% 15% 5%;
 }
-/* Fine Barra menu  */
 
-/* Inizio bottom menu  */
 .bottom-menu {
     position: absolute;
-    width: 100%;
+    position: absolute;
+    width: 60%;
     text-align: center;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    left: 60%;
     transform: translate(-50%, -50%);
     color: white;
 }
@@ -76,18 +83,30 @@ p {
 
 /* Fine bottom menu  */
 
+
+
+
 /* Inizio main  */
 .section {
     height: 110vh;
     width: 100%;
     background-color: white;
     border: 2px solid black;
+    /* background-image: url(../img/wave.svg); */
+
+}
+
+
+.image {
+    margin-top: 12%;
+    margin-left: 5%;
 }
 
 img {
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    height: 45%;
     float: left;
+    margin-left: 5%;
 }
 
 .side-text {
@@ -95,6 +114,8 @@ img {
     float: left;
     margin: 30px;
     margin-left: 130px;
+    /* z-index: 999; */
+
 }
 
 .bold {
@@ -107,39 +128,58 @@ p {
     font-size: 20px;
 }
 
-.image {
-    margin-top: 12%;
-    margin-left: 5%;
-}
-
-.section.gris img {
-    float: right;
-    margin: 10px;
-    margin-right: 100px;
-}
-
-.section.gris.side-text p {
-    margin-right: 5%;
-}
 
 .section.gris {
     background-color: #F6F6F6;
 }
 
+.section.gris img {
+    float: right;
+    margin-right: 10%;
+}
+
+.side-text.gris {
+    margin-left: 15%;
+    margin-right: 0;
+}
+
 .section.four {
     height: 170vh;
+    background-image: none;
 }
 
-/* Fine main  */
-
-
-/* Sezione quarta */
-
-.bottom-text {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 10%;
+/* Bottom  */
+.bottom-mac {
+    position: absolute;
+    height: 55px;
+    width: 220px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    border-color: transparent;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    left: 20%;
+    margin-top: 4%;
+    margin-left: 2%;
 }
+
+.bottom-browser {
+    position: absolute;
+    height: 55px;
+    width: 300px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    border-color: transparent;
+    background-color: #24282B;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 4%;
+}
+
+/* SEZIONE QUARTA */
 
 .section.four img {
     width: 80%;
@@ -147,14 +187,13 @@ p {
     margin-left: 10%;
 }
 
-#img2 {
-    float: none;
-    width: 40%;
-    height: 15%;
-    margin-left: 30%;
-    margin-top: 80px;
-    
+.bottom-text {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
 }
+
+/* Stars container  */
 
 .stars-container {
     position: relative; 
@@ -162,11 +201,20 @@ p {
 
 .text-stars {
     position: absolute; 
-    left: 33%;
-    top: 95%;
+    left: 35%;
+    top: 96%;
     font-weight: 800;
     font-size: 30px;
     float: none;
+}
+
+#img2 {
+    float: none;
+    width: 40%;
+    height: 25%;
+    margin-left: 30%;
+    margin-top: 5px;
+    
 }
 
 /* BOTTONI  */
@@ -184,37 +232,8 @@ p {
     top: 105%;
 }
 
-.bottom-mac {
-    position: absolute;
-    height: 55px;
-    width: 220px;
-    border-radius: 25px;
-    font-size: 20px;
-    font-weight: 400;
-    border-color: transparent;
-    background-color: white;
-    color: black;
-    margin-bottom: 10px;
-    left: 30%;
-    margin-top: 2%;
-    margin-left: 2%;
-}
-
-.bottom-browser {
-    position: absolute;
-    height: 55px;
-    width: 300px;
-    border-radius: 25px;
-    font-size: 20px;
-    font-weight: 400;
-    border-color: transparent;
-    background-color: #24282B;
-    color: white;
-    margin-bottom: 10px;
-    margin-top: 2%;
-}
 /* BOTTONI  */
-/* Fine Sezione quarta */
+/* SEZIONE QUARTA */
 /* Fine main  */
 
 /* Inizio footer  */
@@ -229,9 +248,10 @@ footer {
 .container-footer {
     display: inline-block;
     height: 75%;
-    width: 90%;
-    background-color: green;
-    border-bottom: 1px solid #8EA1E1;
+    width: 75%;
+    /* background-color: green; */
+    border-bottom: 1px solid #7389D9;
+    margin-left: 5%;
 }
 
 .containeruno {
@@ -239,8 +259,7 @@ footer {
     height: 100%;
     width: 30%;
     background-color: #24282B;
-    /* border: 1px solid red;  */
-    border-bottom: 0.1px #8EA1E1;
+    border-bottom: 0.1px #7389D9;
 }
 .containeruno p{
     margin-bottom: 30px;
@@ -323,6 +342,7 @@ h3{
 
 footer .logo {
     margin: 0;
+    margin-left: 5%;
     width: 20%;
 }
 
@@ -341,7 +361,7 @@ footer .logo {
     border-color: transparent;
     background-color: #8EA1E1;
     color: white;
-    left: 2080%;
+    left: 1875%;
 
 }
 
